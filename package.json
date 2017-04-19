@@ -1,0 +1,16 @@
+{
+  "name": "faggruppemote-typescript",
+  "version": "1.0.0",
+  "description": "1. Syntax 2. Interop med biblioteker (type definitions) 3. Verktøy (atom) 4. Leke",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "onchange '*.ts' -- npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "onchange": "^3.2.1",
+    "typescript": "^2.2.2"
+  }
+}

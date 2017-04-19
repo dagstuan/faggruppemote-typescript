@@ -1,0 +1,14 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
